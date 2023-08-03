@@ -1,0 +1,37 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* background-color: #021d22; */
+    /* background-color: #0c2e42 ; */
+    /* background: linear-gradient( #0c2e42, #4c80e9); */
+    /* background: linear-gradient( #021d22, #0c2e42); */
+    /* background: linear-gradient( #0f1320, #3563e0); */
+    background-color:  #0f1320 ;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 90;
+    /* box-shadow: 0 0 40px rgba(0,0,0,0.6); */
+}
+
+.weblogo h3{
+    margin: 0;
+    margin-left: 20px;
+}
+
+.weblogo a{
+    color: white;
+    text-decoration: none;
+}
+
+.navlinks{
+    margin-right: 100px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    margin-right: 20px;
+}

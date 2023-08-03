@@ -1,0 +1,44 @@
+.trend-container{
+    display: flex;
+    overflow-x: auto;
+}
+
+.trend-container a{
+    text-decoration: none;
+    color: white;
+}
+.trend-container::-webkit-scrollbar {
+    display: none;
+}
+.trend-card{
+     margin: 20px;
+    width: 250px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0b1a23;
+}
+
+.trend-card:hover{
+    background-color: white;
+    color: black;
+}
+
+.trend-inner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* width: 50%; */
+}
+
+
+.trend-img{
+    width: 30px;
+    height: 30px;
+    margin:15px ;
+}
+.trend-inner h5{
+    padding-left: 5px;
+}

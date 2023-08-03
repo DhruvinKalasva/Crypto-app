@@ -1,0 +1,46 @@
+.main-exchange-container{
+    margin: auto;
+    width: 100%;
+}
+
+.exchange-card-container{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    color: white;
+}
+
+.exchange-card-container a{
+    text-decoration: none;
+    color: white;
+}
+
+.exchange-card{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0b1a23;
+    /* background: linear-gradient(0deg,  #12fff1,#3a57f3); */
+}
+
+.exchange-card:hover{
+    margin-top: 0;
+}
+
+.exchange-card img {
+    width:min-content;
+    margin: 10px;
+}
+
+.exchange-card h3{
+ margin: 10px;
+}
+
+.exchange-card h4{
+    margin: 10px;
+}

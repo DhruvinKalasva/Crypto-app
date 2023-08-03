@@ -1,0 +1,100 @@
+.coin-detail-container{
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+    width: 80%;
+}
+
+.coin-detail-container img{
+    width: 100px;
+}
+
+.coin-detail-part-1{
+    display: flex;
+}
+
+.coin-name-section{
+    margin-left: 24px;
+}
+.coin-name{
+    margin: 0;
+    margin-top: 10px;
+}
+.coin-price{
+    margin: 0;
+    margin-top: 5px;
+}
+.coin-rank {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: black;
+}
+/* 
+.coin-chart-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: antiquewhite;
+} */
+
+.time-part{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.chart-time-btns{
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chart-time-btns button{
+    margin: 10px;
+    margin-right:20px ;
+    background-color: #00FF57;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 70px;
+}
+
+.chart-time-btns button:hover{
+    background-color: white;
+    color: black;
+}
+
+.time-range-bar {
+    background: conic-gradient( white 0deg 180deg , rgb(24, 139, 104) 180deg 360deg) ;
+    width: 100%;
+    height: 10px;
+    margin-bottom: 4px;
+    border-radius: 10px;
+}
+.bar-label{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.label-red{ background-color: rgb(237, 131, 131); color: rgb(150, 13, 13);}
+.label-green{ background-color: rgb(124, 236, 124); color: green;}
+
+
+.coin-details-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.coin-details-section table,th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+}

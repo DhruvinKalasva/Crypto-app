@@ -1,0 +1,210 @@
+/* Coins + CoinCard CSS */
+
+.main-coin-container{
+    margin: auto;
+    width: 100%;
+    margin-top: 70px;
+    color: white;
+}
+
+.coin-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    color: white;
+}
+
+.coin-card{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0b1a23;
+    /* background: linear-gradient( #021d22, #0c2e42); */
+    /* box-shadow: 0 0 20px rgba(0,0,0,0.9); */
+    /* background: linear-gradient(0deg,  #12fff1,#3a57f3); */
+}
+
+.coin-card-container a {
+    color: white;
+    text-decoration:none;
+}
+
+.coin-card:hover{
+  margin-top: 0;
+  /* box-shadow: 0 20px 20px #2cd3d6; */
+  
+}
+
+.coin-card img {
+    width:50px;
+    margin: 10px;
+}
+
+.coin-card h3{
+ margin: 10px;
+}
+
+.coin-card h4{
+    margin: 10px;
+}
+
+.page-btns {
+    margin-top: 50px;
+    display: flex;
+    overflow-x: auto;
+    width: 70%;
+    margin-left:200px ;
+}
+
+.page-btns button {
+    margin: 5px;
+    color: white;
+    background-color: #0b1a23;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+.page-btns button:hover{
+  background-color: white;
+  color: black;
+}
+
+
+/* ScrollBar ------------------------------------------------------------------------------*/
+.page-btns::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .page-btns::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black; 
+    border-radius: 10px;
+  }
+   
+
+  .page-btns::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg,  #12fff1,#3a57f3); 
+    border-radius: 10px;
+  }
+
+
+
+  /* Currency Radio Button --------------------------------------------------------------------*/
+
+  .rad-container{
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .currency-radio-btn{
+    /* position: relative; */
+    position: fixed;
+    z-index: 99;
+    top: 2%;
+    /* left: 38%; */
+    border-radius: 999em;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px #0e131b,
+    -3px -3px 3px #1c2739;
+    height: 70px;
+    width: 330px;
+
+    display: flex;
+    /* flex-direction: ; */
+
+    > * {
+        flex: 0 0 33.33%;
+    }
+
+    &:after {
+        content: "";
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        /* border: 0.125em solid white; */
+        /* border-radius: 999em; */
+        pointer-events: none;
+      }
+}
+
+.currency-radio-input{
+  display: none;
+  &:checked + .currency-radio-label {
+      background-color: #00FF57;
+  color: white;
+  }
+}
+
+.currency-radio-label{
+  display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: white;
+      position: relative;
+      cursor: pointer;
+      transition: all 0.2s ease-out;
+      color: #0b1a23;
+
+      &:hover {
+          color: #007ECC;
+      }
+
+      
+}
+  
+
+  .pg-num-top{
+    position: fixed;
+    left: 100px;
+  }
+
+  .pg-num-down{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  /* Search Bar --------------------------------------------------------------- */
+
+  .searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+
+  .searchbar input{    
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    outline: none;
+  }
+  .searchbar button{
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 120px;
+  }
+  .searchbar button:hover{
+    color: white;
+    background-color: black;
+  }
+
+  .coin-heading {
+    margin-left: 30px;
+  }
+  
+  .trend-container{
+    width: 90%;
+    margin-left: 40px;
+
+  }

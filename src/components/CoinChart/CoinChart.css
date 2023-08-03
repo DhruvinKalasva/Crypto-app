@@ -1,0 +1,9 @@
+.chart{
+    background-color: black;
+    /* color: white; */
+    width: 80%;
+    margin: auto;
+    /* background-color: white; */
+    border: 1px solid white;
+    border-radius: 25px;
+}
